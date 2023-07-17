@@ -1,0 +1,82 @@
+/* css styles for small screens and laptops */
+@media (min-width:0px) and (max-width:965px){
+    .container-one{
+        display: none;
+    }
+    #checkbtn{
+      display: block;
+    }
+    .main-h1{
+      display: block;
+    }
+    .img-man{
+      height: 150px;
+      width: 150px;
+      margin: 18px 0 8px 0;
+    }
+    .subject{
+      font-size: 15px;
+      height: 20px;
+    }
+    .time{
+      font-size: 16px;
+      height: 27px;
+    }
+    p{
+      font-size: 13px;
+    }
+}
+
+/* css styles for ipads and tablets */
+@media (min-width:481px) and (max-width:768px){
+  .img-man{
+    height: 120px;
+    width: 120px;
+    margin: 18px 0 8px 0;
+  }
+  .subject{
+    font-size: 13px;
+    height: 18px;
+  }
+  .time{
+    font-size: 13px;
+    height: 18px;
+  }
+  p{
+    font-size: 11px;
+  }
+}
+
+/* css styles for mobile devices */
+@media (min-width:320px) and (max-width:480px){
+  .img-man{
+    height: 100px;
+    width: 100px;
+    margin: 13px 0 5px 0;
+  }
+  .subject{
+    font-size: 13px;
+    height: 18px;
+  }
+  .time{
+    font-size: 13px;
+    height: 18px;
+  }
+}
+
+/* css styles for smaller mobile devices */
+@media (min-width:320px) and (max-width:0px){
+  .img-man{
+    height: 80px;
+    width: 80px;
+    margin: 10px 0 3px 0;
+  }
+  .subject{
+    font-size: 13px;
+    height: 18px;
+  }
+  .time{
+    font-size: 13px;
+    height: 18px;
+  }
+}
